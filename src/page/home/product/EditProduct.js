@@ -44,17 +44,17 @@ export default function EditProduct() {
                     <div className="mb-3">
                         <label htmlFor="exampleInputEmail1" className="form-label">Tên sản phẩm</label>
                         <Field name={'title'} type="text" className="form-control" id="exampleInputEmail1"
-                               aria-describedby="emailHelp"/>
+                               aria-describedby="emailHelp" style={{width: '500px'}}/>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1" className="form-label">Giá sản phẩm</label>
                         <Field name={'price'} type="text" className="form-control" id="exampleInputEmail1"
-                               aria-describedby="emailHelp"/>
+                               aria-describedby="emailHelp" style={{width: '500px'}}/>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1" className="form-label">Mô tả sản phẩm</label>
                         <Field name={'description'} type="text" className="form-control" id="exampleInputEmail1"
-                               aria-describedby="emailHelp"></Field>
+                               aria-describedby="emailHelp" style={{width: '500px'}}></Field>
                     </div>
                     <Button type="submit" className="btn btn-primary">Submit</Button>
                     <Button type="button" className="btn btn-info"><Link to={'/'} className="card-link">Trở lại</Link></Button>

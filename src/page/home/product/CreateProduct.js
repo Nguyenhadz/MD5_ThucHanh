@@ -23,19 +23,19 @@ export default function  CreateProduct () {
             >
                 <Form>
                     <div className="mb-3">
-                        <label htmlFor="exampleInputEmail1" className="form-label">Tên sản phẩm</label>
+                        <label htmlFor="exampleInputEmail1" className="form-label" style={{width: '500px'}}>Tên sản phẩm</label>
                         <Field name={'title'} type="text" className="form-control" id="exampleInputEmail1"
-                               aria-describedby="emailHelp"/>
+                               aria-describedby="emailHelp" style={{width: '500px'}}/>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1" className="form-label">Giá sản phẩm</label>
                         <Field name={'price'} type="text" className="form-control" id="exampleInputEmail1"
-                               aria-describedby="emailHelp"/>
+                               aria-describedby="emailHelp" style={{width: '500px'}}/>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1" className="form-label">Mô tả sản phẩm</label>
                         <Field name={'description'} type="textarea" className="form-control" id="exampleInputEmail1"
-                               aria-describedby="emailHelp"/>
+                               aria-describedby="emailHelp" style={{width: '500px'}}/>
                     </div>
                     <Button type="submit" className="btn btn-primary">Submit</Button>
                     <button className="btn btn-info"><Link to={'/'} className="card-link">Trở lại</Link></button>
